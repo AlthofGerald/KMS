@@ -8,7 +8,7 @@ class Seeder extends DatabaseSeeder
 {
     public function run()
     {
-        // run category, rack, book & bookstock seeder
+       
         $this->call('UserSeeder');
     }
 }
